@@ -1,0 +1,1 @@
+(()=>{"use strict";("users",fetch("https://jsonplaceholder.typicode.com/users").then((e=>{if(e.ok)return e.json();throw new Error(e.statusText)}))).then((e=>{console.log(e)})).catch((e=>{console.log(e)}))})();
